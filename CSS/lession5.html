@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        font-size: 20px;
+        letter-spacing: 1px;
+        margin: 0px;
+        padding: 0px;
+      }
+      .india {
+        background-color: #f78c29;
+        color: #2b3057;
+        background-image: url("photos/india-logo.png");
+      }
+      .australia {
+        background-color: #e1d409;
+        color: #255c34;
+        background-image: url("photos/australia.png");
+      }
+      .team {
+        display: flex;
+        gap: 20px;
+      }
+      .india,
+      .australia {
+        padding: 10px 50px;
+        width: 50%;
+        background-size: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 15px 15px 5px #eeeeee;
+        border-radius: 50px;
+      }
+      .team > div > h2 {
+        text-align: center;
+        font-size: 1.5em;
+        text-shadow: 5px 5px 5px #bbbbbb;
+      }
+      .india > ul,
+      .australia > ul {
+        margin-left: 20px;
+        margin-bottom: 20px;
+      }
+      .india > ul > li,
+      .australia > ul > li {
+        line-height: 200%;
+        /* border-bottom: 2px solid black; */
+      }
+
+      .captain {
+        font-weight: bold;
+        text-decoration: underline;
+        text-transform: uppercase;
+        font-size: 1.2em;
+        list-style-image: url("photos/bat.png");
+      }
+      .bat {
+        list-style-image: url("photos/bat.png");
+      }
+      .ar {
+        list-style-image: url("photos/cricket.png");
+      }
+      .ball{
+        list-style-image: url("photos/fast-ball.png");
+      }
+      .spin{
+        list-style-image: url("photos/ball.png");
+      }
+      .wk{
+        font-weight: bold;
+        text-decoration: underline;
+        text-transform: uppercase;
+        font-size: 1.2em;
+        list-style-image: url("photos/bat.png");
+        list-style-image: url("photos/gloves.png");
+      }
+    </style>
+  </head>
+  <body>
+    <h1 align="center">Working with universal selector and Class selector</h1>
+    <div class="team">
+      <div class="india">
+        <h2>Indian cricket team</h2>
+        <ul>
+          <li class="bat">Rohit Sharma</li>
+          <li class="bat">Sikhar Dhawan</li>
+          <li class="bat">Virat Kohli</li>
+          <li class="bat">Ambati Rayudu</li>
+          <li class="wk">MS Dhoni (c)(Wk)</li>
+          <li class="ar">Hardik Pandya</li>
+          <li class="ar">Ravindra Jadeja</li>
+          <li class="ar">Deepak Chahar</li>
+          <li class="ball">Mohammad shami</li>
+          <li class="spin">Kuldeep Yadav</li>
+          <li class="ball">Jaspreet Bumrah</li>
+        </ul>
+      </div>
+      <div class="australia">
+        <h2>Australian cricket team</h2>
+        <ul>
+          <li class="bat">David Warner</li>
+          <li class="captain">Aron Finch (c)</li>
+          <li class="bat">Steve Smith</li>
+          <li class="bat">Usman Khawaja</li>
+          <li class="ar">Glenn Maxwell</li>
+          <li class="ar">Marcus Stoinis</li>
+          <li class="wk">Alex Carey (Wk)</li>
+          <li class="ball">Nathan Coolter-Nile</li>
+          <li class="ball">Pat Cummins</li>
+          <li class="ball">Mitchel Stark</li>
+          <li class="spin">Adam Zampa</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

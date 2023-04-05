@@ -1,0 +1,58 @@
+.navbar .nav-link:hover  {
+  color: #06a3da;
+}
+.letter
+{
+    font-family: "Jost", sans-serif;
+}
+.bgcolor1
+{
+    background-color:#FFFFFF;
+}
+.banner {
+  position: relative;
+  margin-top: -90px;
+  z-index: 1;
+}
+.container, .container-sm, .container-md, .container-lg, .container-xl {
+  max-width: 1140px;
+}
+.bgcolor
+{
+    background-color: #091e3e;
+}
+.bgsecondary {
+  background-color: #F57E57;
+}
+.text {
+  color: #6B6A75 !important;
+}
+.bg-appointment {
+  background: linear-gradient(rgba(9, 30, 62, .85), rgba(9, 30, 62, .85));
+    background-color: rgba(0, 0, 0, 0);
+    background-size: auto, auto;
+  background-size: cover;
+}
+.appointment-form {
+  background: rgba(6, 163, 218, .7);
+}
+.color
+{
+  color: #FFFFFF;
+  background-color: #091e3e;
+  border-color: #091e3e;
+}
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+a:link {
+  text-decoration: none;
+}
+.background
+{
+  background-color: #051225;
+}

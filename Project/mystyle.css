@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #7fffd4;
+  color: #def2f1;
+  font-family: "Roboto Slab", serif;
+}
+#header {
+  background-color: #121212;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+}
+#footer {
+  background-color: #121212;
+  position: fixed;
+  bottom: 0px;
+  padding: 0px;
+  text-align: center;
+  width: 100%;
+}
+#logo-title {
+  display: flex;
+  align-items: center;
+}
+#menu {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+#logo-title > h1 {
+  font-size: 0.8em;
+  color: whitesmoke;
+  text-transform: uppercase;
+  margin-left: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+#menu > li > a:link,
+a:visited {
+  color: #def2f1;
+  padding: 10px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#menu > li > a:hover {
+  background-color: #7fffd4;
+  color: #112d32;
+  box-shadow: rgba(56, 170, 164, 1) 0px 54px 55px,
+    rgba(56, 170, 164, 1) 0px -12px 30px, rgba(56, 170, 164, 1) 0px 4px 6px,
+    rgba(56, 170, 164, 1) 0px 12px 13px, rgba(56, 170, 164, 1) 0px -3px 5px;
+}
+#para {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#para > p {
+  color: #121212;
+  text-indent: 100px;
+  margin-bottom: 25px;
+  text-align: justify;
+  line-height: 125%;
+}
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #121212;
+}
+
+.dropdown {
+  float: none;
+}
+
+li .one .dropbtn {
+  display: inline-block;
+  color: #7fffd4;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+  color: #121212;
+  background-color: #7fffd4;
+}
+li.dropdown {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+#content {
+  display: none;
+  position: absolute;
+  background-color: #7fffd4;
+  min-width: 160px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+}
+
+#content a {
+  color: black;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+#content .one:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover #content {
+  display: block;
+  width: 0px;
+}
+#content .one {
+  text-transform: uppercase;
+}
+#shop 
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.product
+{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.product>h3 
+{
+    text-align: center;
+    margin: 10px 0px;
+}
+.product>img 
+{
+    width: 100%;
+}
+.product>div
+{
+    display:flex;
+    justify-content: space-between;
+    height: 28px;
+}
+.product>div>span>a:link
+{
+    background-color:  #d79922;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
